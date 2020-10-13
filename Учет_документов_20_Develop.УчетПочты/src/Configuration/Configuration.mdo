@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36ced23f-5ebf-4771-9983-4f795c85743d">
+  <name>Учет_документов_20_Develop.УчетПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет почты</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="41683281-3fe8-4ed7-9201-6b038c819451"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bc93133a-3055-4120-9ea3-df8559062052"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="66a542e5-4675-4393-88da-d4b8121ff8ee"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c73013c7-27e7-443f-9273-f5e30299ca0f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2b51f6ae-503d-4ad2-9632-1781a6dd66e7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7dc0df49-349a-4f41-8f59-81451913e582"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <defaultRoles>Role.Расш1_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="59c1ce1e-baf9-438e-ac64-10f2595c42b6">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Пользователи</catalogs>
+</mdclass:Configuration>
